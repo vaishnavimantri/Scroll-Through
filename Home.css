@@ -1,0 +1,111 @@
+{
+  margin: 0;
+  padding: 0;
+}
+#nav--bar
+{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand h1 {
+height:40px;
+padding-left:40px;
+color=#5B2C6F;
+font-family: Algerian;
+
+}
+.navbar-nav li {
+padding: 0 10px;
+}
+.navbar-nav li  a{
+float :right;
+text-align: left;
+font-size: 18px;
+font-family: sans-serif;
+}
+.navbar{
+  background:#fff;
+}
+.navbar-toggler{
+  border: none;
+}
+.nav-link{
+  color:#555;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#slider{
+  width:100%;
+}
+.carousel-caption{
+top:50%;
+bottom: initial;
+}
+.carousel-caption h5{
+  color: #fff  ;
+  font-size: 42px;
+}
+footer{
+  background-color: #85C1E9 ;
+  height: 360px;
+}
+.footer-heading{
+ width: 100%;
+height: auto;
+margin: auto;
+}
+.footer-heading h2{
+font-size:18px;
+text-align: left;
+color: #21618C;
+text-transform: uppercase;
+margin: 0px;
+}
+.footer-contact-box{
+  width: 100%;
+  height: auto;;
+  margin: auto;
+  margin-top: 13px;
+}
+.footer-contact-text p{
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-contact-text p a{
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+
+}
+.footer-contact-text p:hover{
+  color: #f00;
+}
+.footer-contact-box:hover .footer-contact-icon i{
+   color: #f00;
+}
+.footer-contact-box:hover .footer-contact-text p a{
+  color: #f00;
+}
+.footer-widget li a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+   text-transform: capitalize;;
+}
+.footer-widget ul li a:hover{
+  color: #f00;
+}
+.footer--widget  li a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+   text-transform: capitalize;;
+}
+.footer--widget ul li a:hover{
+  color: #f00;
+}
